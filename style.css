@@ -6,11 +6,9 @@
   }
 
 body{
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px;
 }
  
 h1{
@@ -25,7 +23,7 @@ h1{
     justify-content: center;
     align-items: center;
     padding: 20px;
-    height: 100vh;
+    height: 100%;
     width: 100%;
 }
 
@@ -34,7 +32,8 @@ form {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 4vw;
+    padding: 5vw;
+    margin: 40px auto;
     width: 60%;
     max-width: 600px;
     border-radius: 10px;
