@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", sans-serif;
+  }
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+ 
+h1{
+    text-align: center;
+    color: #00010a;
+    margin-bottom: 20px
+}
+
+.container {
+    background-color: #904ec78e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 100vh;
+    width: 100%;
+}
+
+form {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4vw;
+    width: 60%;
+    max-width: 600px;
+    border-radius: 10px;
+  }
+
+form input{
+    border: 0;
+    margin: 10px 0px;
+    padding: 20px;
+    outline: none;
+    background: #f5f5f5;
+    font-size: 16px;
+    border-radius: 10px;
+    resize: none;
+ }
+
+ .submit-btn {
+    background: #e8e8e8;
+    background-image: -webkit-linear-gradient(top, #e8e8e8, #e8e8e8);
+    background-image: -moz-linear-gradient(top, #e8e8e8, #e8e8e8);
+    background-image: -ms-linear-gradient(top, #e8e8e8, #e8e8e8);
+    background-image: -o-linear-gradient(top, #e8e8e8, #e8e8e8);
+    background-image: linear-gradient(to bottom, #e8e8e8, #e8e8e8);
+    -webkit-border-radius: 29;
+    -moz-border-radius: 29;
+    border-radius: 29px;
+    font-family: Arial;
+    color: #000000;
+    font-size: 20px;
+    margin: 30px 0px;
+    padding: 16px 80px 16px 80px;
+    border: solid #e65b00 0px;
+    text-decoration: none;
+  }
+  
+.submit-btn:hover {
+    background: #de5631;
+    background-image: -webkit-linear-gradient(top, #de5631, #f02727);
+    background-image: -moz-linear-gradient(top, #de5631, #f02727);
+    background-image: -ms-linear-gradient(top, #de5631, #f02727);
+    background-image: -o-linear-gradient(top, #de5631, #f02727);
+    background-image: linear-gradient(to bottom, #de5631, #f02727);
+    text-decoration: none;
+  }
